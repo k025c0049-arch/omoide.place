@@ -81,5 +81,6 @@ a{
 }
 
 .about2{
-    max-width: 100px;
+    max-width: 300px;
+    margin : 5rem ;
 }
