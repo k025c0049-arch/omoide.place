@@ -15,6 +15,11 @@ a{
 }
 
 /*レイアウト*/
+
+.align-center{
+    text-align: center;
+}
+
 .align-center2{
     text-align: center;
     color:black;
