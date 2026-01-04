@@ -83,4 +83,11 @@ a{
 .about2{
     max-width: 300px;
     margin : 5rem ;
+    display: flex;
+    align-self: flex-start;
+}
+
+.soba{
+    max-width: 57%;
+    align-self: flex-start;
 }
