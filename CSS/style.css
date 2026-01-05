@@ -87,6 +87,13 @@ a{
     align-self: flex-start;
 }
 
+.about3{
+    max-width: 300px;
+    display:flex;
+    margin-left:70%;
+    text-align: right;
+}
+
 .soba{
     max-width: 57%;
     align-self: flex-start;
