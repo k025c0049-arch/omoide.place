@@ -85,10 +85,11 @@ a{
 }
 
 .about2{
-    max-width: 300px;
-    margin : 5rem ;
-    display: flex;
+    max-width: 10rem;
+    padding-left: 10px;
+    display:flex;
     align-self: flex-start;
+    
 }
 
 .about3{
@@ -99,8 +100,11 @@ a{
 }
 
 .soba{
-    max-width: 57%;
+    max-width: 70%;
     align-self: flex-start;
+    padding-left: 10%;
+    float:left;
+
 }
 
 .komayama{
@@ -112,4 +116,10 @@ a{
      margin-left:auto;
     margin-right:0;
     width:100px;
+} 
+
+.akari{
+    width:40%;
+    align-self: flex-start;
 }
+
