@@ -89,6 +89,7 @@ a{
     padding-left: 10px;
     display:flex;
     align-self: flex-start;
+    white-space: pre;
     
 }
 
@@ -119,10 +120,11 @@ a{
 } 
 
 .akari{
-    width:40%;
+    width:100%;
     align-self: flex-start;
 }
-
+.p2
+.p3
 .p4{
-     white-space: pre;
+    white-space: pre;
 }
