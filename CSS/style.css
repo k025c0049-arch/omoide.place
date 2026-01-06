@@ -74,6 +74,10 @@ a{
     background-image:url(../images/1.webp)
 }
 
+.cover-home3{
+    background-image:url(../images/R.webp)
+}
+
 .about{
     max-width:736px;
     padding: 0 1.5rem;
@@ -85,9 +89,9 @@ a{
 }
 
 .about2{
-    align-self: flex-start;
-    display:flex;
-    width:300px
+    display:grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
 }
 
 .about3{
@@ -97,13 +101,6 @@ a{
     text-align: left;
 }
 
-.soba{
-    max-width: 70%;
-    align-self: flex-start;
-    padding-left: 10%;
-    float:left;
-
-}
 .komayama{
     margin-left:0;
     margin-right:100%;
@@ -118,18 +115,14 @@ a{
     width:100px;
 } 
 
-.akari{
-    width:100%;
-    align-self: flex-start;
-}
-.p2
-.p4{
-    white-space: pre;
-}
-
-.p3{
-    white-space: pre;
+.about2 .p2,
+.about2 .p3 {
+    width: 50%;
     margin-right: 2rem;
+}
+.p4{
+     border-width: medium;
+    border-style:solid;
 }
 
 .komayamagazou{
@@ -143,8 +136,10 @@ a{
 .about4{
     display:flex;
     white-space: pre;
+   
 }
 
-.heading-large2{
-    white-space: pre;
+.heading-large{
+    font-weight: bold;
+    font-size: 1.5rem;
 }
