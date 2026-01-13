@@ -89,16 +89,17 @@ a{
 }
 
 .about2{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    gap: 10px;
+    display:block;
+    padding:10px;
+    white-space: pre;
+    position: relative;
 }
-
 .about3{
-    max-width: 300px;
-    display:flex;
-    margin-left:70%;
-    text-align: left;
+     display:block;
+    padding:10px;
+    padding-top: 1rem;
+    white-space: pre-wrap;
+    position: relative;
 }
 
 .komayama{
@@ -116,13 +117,15 @@ a{
 } 
 
 .about2 .p2,
-.about2 .p3 {
-    width: 50%;
+.about3 .p3 {
+    width: 30%;
     margin-right: 2rem;
+    max-width: 35%;
 }
 .p4{
      border-width: medium;
     border-style:solid;
+     max-width: 35%;
 }
 
 .komayamagazou{
@@ -136,10 +139,29 @@ a{
 .about4{
     display:flex;
     white-space: pre;
+    padding-top: 10rem;
    
 }
 
 .heading-large{
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.soba{
+    width:30%;
+    float: right;
+    margin-top: 5rem;
+    top:-0.1px;
+    right: -0.1px;
+    position:absolute;
+}
+
+.akari{
+    width: 29%;
+    float: left;
+    position:absolute;
+    top:-0.1px;
+    right: -0.1px;
+    margin-top: 6rem;
 }
