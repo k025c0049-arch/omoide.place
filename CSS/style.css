@@ -160,6 +160,11 @@ a{
    justify-content: center;
 }
 
+.aboutK1{
+    text-align: center;
+     justify-content: center;
+}
+
 .about5{
     display:flex;
     justify-content: center;
@@ -195,4 +200,13 @@ a{
 
 .moripark{
     width:30%;
+}
+
+.hinodegazou{
+    width:50%;
+}
+
+.hinode{
+    text-align: center;
+    white-space: pre;   
 }
