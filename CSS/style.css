@@ -94,9 +94,10 @@ a{
 
 .about2{
     display:block;
-    padding:10px;
     white-space: pre;
     position: relative;
+    padding: 0 1.5rem;
+    margin:3rem auto 0;
 }
 .about3{
      display:block;
@@ -140,6 +141,10 @@ a{
     white-space: pre;
 }
 
+.p6{
+    white-space: pre;
+}
+
 .komayamagazou{
     width: 70%;
     display:flex;
@@ -152,7 +157,13 @@ a{
     display:flex;
     white-space: pre;
     padding-top: 10rem;
-   
+   justify-content: center;
+}
+
+.about5{
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .heading-large{
@@ -180,4 +191,8 @@ a{
 
 .moritown{
     width :80%;
+}
+
+.moripark{
+    width:30%;
 }
